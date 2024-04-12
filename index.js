@@ -37,7 +37,7 @@ const branchB = new BankBranch("Branch B Info");
 
 // Retrieve branch information from the instances
 console.log(branchA.getBranchInfo()); // Output: Branch A Info
-console.log(branchB.getBranchInfo()); // Output: Branch B Info (Same as branchA)
+console.log(branchB.getBranchInfo()); // Output: Branch A Info (Same as branchA)
 
 // Verify that branchA and branchB refer to the same instance
 console.log(branchA === branchB); // Output: true
